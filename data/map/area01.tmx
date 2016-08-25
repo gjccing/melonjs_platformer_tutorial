@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" nextobjectid="54">
+ <tileset firstgid="1" name="area01_level_tiles" tilewidth="32" tileheight="32" tilecount="140" columns="20">
+  <image source="../img/map/area01_level_tiles.png" width="640" height="241"/>
+ </tileset>
+ <imagelayer name="圖像圖層 1" opacity="0.25">
+  <image source="../img/area01_bkg0.png" width="640" height="480"/>
+ </imagelayer>
+ <imagelayer name="圖像圖層 2" opacity="0.35">
+  <image source="../img/area01_bkg1.png" width="327" height="480"/>
+ </imagelayer>
+ <layer name="background2" width="20" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+43,43,5,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+3,3,25,0,0,23,4,42,42,42,5,22,0,0,0,0,0,0,0,0,
+8,8,45,0,0,0,24,3,3,3,25,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,44,8,8,8,45,0,0,1,1,0,0,0,0,0,
+0,0,0,0,0,0,1,1,1,1,1,0,23,4,43,5,22,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,44,8,45,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,4,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,
+62,43,42,5,22,0,0,0,0,23,4,43,42,43,62,43,2,43,43,27,
+3,3,3,25,0,0,0,0,0,0,24,3,3,3,3,3,3,3,3,3
+</data>
+ </layer>
+ <layer name="background3" width="20" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,81,82,102,84,84,85,86,87,0,0,0,0,0,0,0,0,0,
+0,0,0,101,0,103,104,104,105,1,107,0,0,0,0,0,0,0,0,0,
+0,0,0,121,122,123,123,123,123,123,124,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="background4" width="20" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,92,0,0,0,12,13,0,0,0,0,0,0,0,0,0,0,0,0,
+0,17,112,1,0,0,32,33,0,0,0,0,0,0,0,0,0,0,0,0,
+61,37,0,0,0,0,52,17,0,16,0,0,0,0,0,0,0,0,0,0,
+0,57,0,0,0,0,1,37,41,36,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,1,57,0,56,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,17,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,37,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,57,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,61,0,0,0,0,0,0,0,0,0,0,6,7,1,0,0,0,0,6
+</data>
+ </layer>
+ <objectgroup name="物件層 1">
+  <object id="9" name="mainPlayer" x="34" y="353" width="32" height="64">
+   <properties>
+    <property name="framewidth" type="int" value="64"/>
+    <property name="image" value="gripe_run_right"/>
+   </properties>
+  </object>
+  <object id="52" name="me.LevelEntity" x="-1" y="30" width="65" height="64">
+   <properties>
+    <property name="duration" type="int" value="250"/>
+    <property name="fade" type="color" value="#ff000000"/>
+    <property name="to" value="area02"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="collision">
+  <object id="13" x="416" y="225" width="95" height="63"/>
+  <object id="15" x="190" y="130" width="162" height="93"/>
+  <object id="16" x="-1" y="96" width="97" height="96"/>
+  <object id="27" x="609" y="289" width="45" height="190"/>
+  <object id="28" x="-2" y="417" width="131" height="70"/>
+  <object id="29" x="321" y="416" width="314" height="102"/>
+  <object id="31" x="-1" y="-2">
+   <polyline points="-2,-179 -2,486"/>
+  </object>
+  <object id="32" x="642" y="3">
+   <polyline points="-1,-191 -2,296"/>
+  </object>
+  <object id="33" x="128.667" y="418">
+   <polyline points="0,0 12,1 27,3 45.6667,3 76.3333,3.66667 93.6667,3 109.333,4 140.667,3.66667 157.333,4 187.333,4 192.333,-2"/>
+  </object>
+  <object id="34" x="320.818" y="416">
+   <polyline points="0,0 -18.4545,5.72727"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Coin">
+  <object id="35" name="CoinEntity" x="289" y="96.3333" width="32" height="32">
+   <properties>
+    <property name="framewidth" type="int" value="32"/>
+    <property name="image" value="spinning_coin_gold"/>
+   </properties>
+  </object>
+  <object id="37" name="CoinEntity" x="421.333" y="193.333" width="32" height="32">
+   <properties>
+    <property name="framewidth" type="int" value="32"/>
+    <property name="image" value="spinning_coin_gold"/>
+   </properties>
+  </object>
+  <object id="40" name="CoinEntity" x="544.667" y="32" width="32" height="32">
+   <properties>
+    <property name="framewidth" type="int" value="32"/>
+    <property name="image" value="spinning_coin_gold"/>
+   </properties>
+  </object>
+  <object id="41" name="CoinEntity" x="578" y="32.3333" width="32" height="32">
+   <properties>
+    <property name="framewidth" type="int" value="32"/>
+    <property name="image" value="spinning_coin_gold"/>
+   </properties>
+  </object>
+  <object id="42" name="CoinEntity" x="610.667" y="32.6667" width="32" height="32">
+   <properties>
+    <property name="framewidth" type="int" value="32"/>
+    <property name="image" value="spinning_coin_gold"/>
+   </properties>
+  </object>
+  <object id="48" name="CoinEntity" x="257" y="96" width="32" height="32">
+   <properties>
+    <property name="framewidth" type="int" value="32"/>
+    <property name="image" value="spinning_coin_gold"/>
+   </properties>
+  </object>
+  <object id="49" name="CoinEntity" x="321" y="96" width="32" height="32">
+   <properties>
+    <property name="framewidth" type="int" value="32"/>
+    <property name="image" value="spinning_coin_gold"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="EnemyEntities">
+  <object id="46" name="EnemyEntity" x="368.667" y="351" width="239.333" height="64">
+   <properties>
+    <property name="image" value="wheelie_right.png"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
